@@ -1,32 +1,166 @@
-# React + Vite
+# TrafficAI – AI-Based Traffic Flow Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+### A Smart Traffic Monitoring and Analysis System for Gwalior City
 
-Currently, two official plugins are available:
+TrafficAI is an AI-based traffic analysis prototype designed to monitor vehicle movement, estimate traffic density, and support better traffic management through an interactive dashboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project demonstrates how computer vision, data analysis, and interactive visualization can be combined to support smarter urban traffic monitoring.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Project Overview
 
-## Expanding the Oxlint configuration
+Traffic congestion is a major challenge in urban areas. TrafficAI provides a centralized platform for analyzing traffic videos, identifying vehicles, estimating traffic conditions, and generating useful traffic-management recommendations.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-## 📸 Project Screenshots
+The prototype is designed around selected traffic intersections in **Gwalior, Madhya Pradesh**.
+
+---
+
+##  Key Features
+
+-  **Vehicle Detection** – Detects vehicles from uploaded traffic videos.
+-  **Vehicle Classification** – Organizes detected vehicles into supported categories.
+-  **Traffic Density Analysis** – Provides an indication of current traffic density.
+-  **PCU Calculation** – Estimates traffic load using Passenger Car Unit (PCU) values.
+-  **Interactive Traffic Map** – Displays configured traffic intersections in Gwalior.
+-  **Signal Timing Recommendations** – Suggests traffic signal timing based on traffic analysis.
+-  **Emergency Route Visualization** – Demonstrates possible emergency corridors and priority intersections.
+-  **Analytics Dashboard** – Presents traffic information through a centralized interface.
+
+---
+
+##  System Workflow
+
+```text
+Traffic Video
+     ↓
+Video Frame Processing
+     ↓
+Vehicle Detection
+     ↓
+Vehicle Classification & Counting
+     ↓
+Traffic Density / PCU Analysis
+     ↓
+Traffic Recommendations
+     ↓
+Interactive Dashboard
+```
+
+---
+
+##  Project Screenshots
 
 ### 1. Dashboard
+
 ![TrafficAI Dashboard](screenshots/dashboard.png)
 
 ### 2. Intersection Monitoring
+
 ![Intersection Monitoring](screenshots/intersections.png)
 
 ### 3. YOLO Vision AI
+
 ![Vehicle Detection](screenshots/vehicle-detection.png)
 
 ### 4. Emergency Corridor Management
+
 ![Emergency Corridor](screenshots/emergency.png)
 
 ### 5. Analytics and Reports
+
 ![Traffic Analytics](screenshots/analytics.png)
+
+---
+
+##  Configured Traffic Locations
+
+The prototype includes selected traffic locations in Gwalior, including:
+
+- Maharaj Bada
+- Phoolbagh
+- Padav
+- Gole Ka Mandir
+- Thatipur
+- Hazira
+- Kampoo
+- City Center
+- Shinde Ki Chhawani
+- Govindpuri
+- Morar Baradari
+- Maharajpura
+
+---
+
+##  Technologies Used
+
+- React.js
+- JavaScript
+- Vite
+- HTML5
+- CSS3
+- Computer Vision / Object Detection
+- Data Visualization
+- Interactive Maps
+
+> **Note:** The exact AI detection model and backend technologies should be documented here only if they are implemented in the project.
+
+---
+
+##  Project Scope and Current Status
+
+TrafficAI is currently a **prototype** demonstrating traffic analysis using uploaded videos and configured/sample traffic data.
+
+The project is **not currently connected to live CCTV cameras or physical traffic signals**.
+
+Signal timing and emergency-route features provide recommendations and visualizations rather than directly controlling real-world infrastructure.
+
+If dashboard values are based on demonstration or sample data, they should be interpreted as prototype data rather than verified live traffic measurements.
+
+---
+
+##  Future Enhancements
+
+- Integration with authorized live CCTV feeds
+- Improved vehicle detection and tracking
+- Real-time traffic monitoring
+- Advanced traffic signal optimization
+- Emergency vehicle priority integration
+- Traffic congestion prediction
+- Weather-based traffic analysis
+- Improved privacy and security
+- Historical traffic trend analysis
+- Cloud-based traffic monitoring
+
+---
+
+##  Project Team
+
+### Jaydeep Singh
+**BTMC24O1061**
+
+### Abhishek Pal
+**BTMC24O1006**
+
+### Project Guide
+
+**Dr. D. K. Jain**  
+Professor, Department of Applied Mathematics
+
+**Madhav Institute of Technology & Science (MITS), Gwalior**
+
+---
+
+##  Academic Project
+
+**Madhav Institute of Technology & Science (MITS), Gwalior**
+
+This project demonstrates the application of **Artificial Intelligence, Computer Vision, Data Analysis, and Web Technologies** to an urban traffic-management problem.
+
+---
+
+##  Project Goal
+
+> **TrafficAI – Exploring AI for smarter and more efficient urban traffic management.**
+
+---
