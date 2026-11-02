@@ -1,16 +1,96 @@
-# React + Vite
+#  TrafficAI – AI-Based Traffic Flow Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**A Smart Traffic Monitoring and Analysis System for Gwalior City**
 
-Currently, two official plugins are available:
+TrafficAI is an AI-based traffic analysis prototype designed to monitor vehicle movement, estimate traffic density, and support better traffic management through an interactive dashboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project aims to demonstrate how computer vision and data analysis can help make urban traffic monitoring more efficient.
 
-## React Compiler
+##  Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Traffic congestion is a major challenge in urban areas. TrafficAI provides a centralized platform to analyze traffic videos, identify vehicles, estimate traffic conditions, and generate useful recommendations.
 
-## Expanding the Oxlint configuration
+The prototype is designed around selected traffic intersections in Gwalior, Madhya Pradesh.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+##  Key Features
+
+- **Vehicle Detection:** Detects vehicles from uploaded traffic videos.
+- **Vehicle Classification:** Organizes detected vehicles into supported vehicle categories.
+- **Traffic Density Analysis:** Provides an indication of traffic density.
+- **PCU Calculation:** Estimates traffic load using Passenger Car Unit (PCU) values.
+- **Interactive Traffic Map:** Displays configured traffic intersections in Gwalior.
+- **Signal Timing Recommendations:** Suggests traffic signal timing based on traffic analysis.
+- **Emergency Route Visualization:** Demonstrates possible emergency routes and intersections requiring priority.
+- **Dashboard:** Presents traffic information through a centralized interface.
+
+##  System Workflow
+
+1. Upload a traffic video.
+2. Process video frames.
+3. Perform vehicle detection.
+4. Classify and count detected vehicles.
+5. Analyze traffic density and estimate PCU.
+6. Generate signal timing recommendations.
+7. Display results on the dashboard.
+
+##  Configured Traffic Locations
+
+The prototype includes selected intersections such as:
+
+- Maharaj Bada
+- Phoolbagh
+- Padav
+- Gole Ka Mandir
+- Thatipur
+- Hazira
+- Kampoo
+- City Center
+- Shinde Ki Chhawani
+- Govindpuri
+- Morar Baradari
+- Maharajpura
+
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript
+- Vite
+- HTML5
+- CSS3
+- Computer Vision and Object Detection
+
+*Add the exact detection model and backend technologies after confirming the implementation.*
+
+##  Project Scope and Current Status
+
+TrafficAI is currently a prototype that demonstrates traffic analysis using uploaded videos and configured/sample traffic data.
+
+It is not yet connected to live CCTV cameras or physical traffic signals. Signal timing and emergency route features provide recommendations and visualizations rather than directly controlling real-world infrastructure.
+
+##  Future Enhancements
+
+- Integration with authorized live CCTV feeds.
+- Improved vehicle detection and tracking.
+- Real-time traffic monitoring.
+- Advanced traffic signal optimization.
+- Emergency vehicle priority integration.
+- Traffic congestion prediction.
+- Weather-based traffic analysis.
+- Improved privacy and security features.
+
+##  Project Team
+
+**Jaydeep Singh**  
+BTMC24O1061
+
+**Abhishek Pal**  
+BTMC24O1006
+
+**Project Guide:** Dr. D. K. Jain  
+Professor, Department of Applied Mathematics
+
+**Institution:** Madhav Institute of Technology & Science (MITS), Gwalior
+
+---
+
+ *TrafficAI – Exploring AI for smarter and more efficient urban traffic management.*
